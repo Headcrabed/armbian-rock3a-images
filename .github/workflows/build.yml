@@ -33,7 +33,7 @@ jobs:
       matrix:
         BOARD: [rock-3a]
         DISTRO: [armbian]
-        FLAVOR: [debian, ubuntu]
+        FLAVOR: [debian, ubuntu, debian_kde, ubuntu_kde]
         BRANCH: [edge]
     steps:
       - name: Checkout
